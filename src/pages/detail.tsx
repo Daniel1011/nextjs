@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-const people = [
+const ownersList = [
     {v: 'car', name: 'bruno'},
     {v: 'bike', name: 'joy'},
     {v: 'air plane', name: 'john'}
@@ -8,9 +8,9 @@ const people = [
 
 export default function Details() {
     return <div>
-        {people.map(e => (
+        {ownersList.map(e => (
             <Link as={`/${e.v}/${e.name}`} href="/[vehicle]/[person]" > 
-            <a> Navigate to Bruno's car</a>
+            <a> Navigate to {e.name}'s {e.v}</a>
             </Link>
         ))}
             

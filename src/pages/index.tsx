@@ -1,5 +1,6 @@
 import Head from 'next/head'
-
+import {HomePage} from '../containers/Homepage'
+import { Container } from 'next/app'
 export default function Home() {
   return (
     <div className="container flex items-center p-4 mx-auto min-h-screen justify-center">
@@ -11,3 +12,5 @@ export default function Home() {
     </div>
   )
 }
+
+

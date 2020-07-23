@@ -24,6 +24,6 @@
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx"
+    "**/*.tsx", "src/containers/Homepage.js", "src/pages/Detail.js", "src/pages/link.js"
   ]
 }
